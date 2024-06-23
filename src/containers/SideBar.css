@@ -1,0 +1,55 @@
+.sidebar {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.deck-list {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.deck-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.deck-title {
+  flex-grow: 1;
+  margin-right: 10px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.deck-buttons {
+  display: flex;
+}
+
+.deck-button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.new-deck-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    width: 390px;
+  }
+}
