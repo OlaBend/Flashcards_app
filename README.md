@@ -1,4 +1,4 @@
-# Flash Cards
+# GoLearn
 
 Welcome to "GoLearn" - a flashcards application. 
 
